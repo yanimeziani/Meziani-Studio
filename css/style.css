@@ -1,0 +1,158 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 200px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.button {
+  border: 3px solid #fbc02d;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fbc02d;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+header .button {
+  font-size: 1.3em;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  border: 1px solid #9c27b0;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-size: cover;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.hero h1 {
+  color: #9c27b0;
+  font-size: 3em;
+}
+
+.hero p {
+  color: white;
+  font-size: 1.5em;
+  margin-top: -10px;
+}
+
+.hero img {
+  text-align: right;
+  width: 450px;
+}
+
+.hero .button {
+  width: fit-content;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.portfolio .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px solid #9c27b0;
+}
+
+#nbphoto img {
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#resvoo img {
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#elys img {
+  background: #00b4db; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0083b0,
+    #00b4db
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0083b0,
+    #00b4db
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.portfolio .card img {
+  width: 250px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.sectionTitle {
+  text-align: center;
+  color: #9c27b0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #9c27b0;
+}
+
+footer {
+  padding: 10px;
+}
