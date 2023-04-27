@@ -45,7 +45,18 @@ header .button {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-  border: 1px solid #9c27b0;
+  background: #ff0099; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #493240,
+    #ff0099
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #493240,
+    #ff0099
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   margin-bottom: 20px;
   border-radius: 15px;
   background-size: cover;
@@ -58,7 +69,7 @@ header .button {
   padding: 20px;
 }
 .hero h1 {
-  color: #9c27b0;
+  color: #fbc02d;
   font-size: 3em;
 }
 
@@ -96,54 +107,21 @@ header .button {
   border: 1px solid #9c27b0;
 }
 
-#nbphoto img {
-  background: #ee9ca7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffdde1,
-    #ee9ca7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffdde1,
-    #ee9ca7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-#resvoo img {
-  background: #12c2e9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-#elys img {
-  background: #00b4db; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0083b0,
-    #00b4db
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0083b0,
-    #00b4db
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 .portfolio .card img {
   width: 250px;
   border-radius: 15px;
   margin-bottom: 10px;
+  background: #ff0099; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #493240,
+    #ff0099
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #493240,
+    #ff0099
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .sectionTitle {
